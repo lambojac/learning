@@ -66,7 +66,7 @@ const Dropdown = () => {
       <h1>Product Search</h1>
       <input
         type="text"
-        placeholder="Search for products"
+        placeholder="Search for products online"
         value={searchTerm}
         onChange={(e) => setSearchTerm(e.target.value)}
       />
